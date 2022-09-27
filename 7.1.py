@@ -5,7 +5,6 @@ def large(arr):
            max_ = ele
     return max_
 
-
 list1 = [1,4,5,2,6]
 result = large(list1)
 print(result)
