@@ -9,7 +9,7 @@ try:
         symbols += len(line.strip('\n'))
 
 
-    print("количество строк:",lines,)
+    print("количество строк:",lines)
     print("количество символов:", symbols)
 except IOError as err:
     print("I/O eror occured", strerror(err.errno))
